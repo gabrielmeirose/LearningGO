@@ -37,6 +37,6 @@ func main() {
 	fmt.Println("Circle")
 	fmt.Println(showData(c.Area(), c.Perimetro()))
 	fmt.Println("Triangle")
-	fmt.Println(showData(t.Area(), t.Perimetro()))
+	fmt.Println(showData(t.Area(), t.Perimetro())) // Not sure why it is negative
 
 }
